@@ -9,7 +9,8 @@ import {HandeleSwitchVariablesProvider} from './kmeans/switch-variables';
 import {HandleDynamicGeneratedInputFieldsProvider} from './kmeans/create-save-manuel-input';
 import ScatterChart from './kmeans/scatter-chart';
 import {CreateLocalRemoteButton} from "./kmeans/local-remote-button";
-import './globals.css'
+import {ExportExcelFile} from "./kmeans/exportButton";
+import './globals.css';
 
 export default function Home() {
 
@@ -26,6 +27,7 @@ export default function Home() {
                                     className='compute-container d-flex flex-column row-gap-3 flex-xl-row justify-content-xl-between align-items-center align-items-xl-end mb-5'>
                                     <SwitchVariables/>
                                     <CalculateButton localRemoteButton={localRemoteButton} setLocalRemoteButton={setLocalRemoteButton}/>
+                                    <ExportExcelFile localRemoteButton={localRemoteButton} setLocalRemoteButton={setLocalRemoteButton}/>
                                 </div>
                                 <InputKPoints/>
                                 <section
