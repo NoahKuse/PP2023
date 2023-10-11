@@ -79,14 +79,22 @@ export function HandleDynamicGeneratedInputFieldsProvider({children}) {
      */
     const renderInputElement = (i, helper, colIndex, rowIndex) => (
         <div key={i} className="grid-cell">
-            <label className='input-group-text' htmlFor={`inputVector${i}`}>{helper} Variable ...</label>
+            <label className='input-group-text' htmlFor={`inputVector${i}`}>{helper}. Variable </label>
             <input id={`inputVector${i}`}
                    className={`inputVector${i} form-control input-vektor-get`}
+                   placeholder={"x-koordinate"}
                    type={"number"}
                    required={true}
                    aria-rowindex={rowIndex}
+                   onChange={event => handleInputChange(rowIndex, parseInt(event.target.value))}
+            />
+            <input id={`inputVector${i}`}
+                   className={`inputVector${i} form-control input-vektor-get`}
+                   placeholder={"y-koordinate"}
+                   type={"number"}
+                   required={true}
                    aria-colindex={colIndex}
-                   onChange={event => handleInputChange(rowIndex, colIndex, parseInt(event.target.value))}
+                   onChange={event => handleInputChange(colIndex, parseInt(event.target.value))}
             />
         </div>
     );
@@ -94,6 +102,7 @@ export function HandleDynamicGeneratedInputFieldsProvider({children}) {
     /*
     renderInputs ruft renderInputElement mit den entsprechenden Parametern auf. Die Variable Counter berechnet dabei die
     Gesamtanzahl an zu generierenden Inputs.
+
      */
     const renderInputs = () => {
         if (numberOfVariables) {

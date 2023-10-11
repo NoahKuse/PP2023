@@ -30,7 +30,7 @@ export default function Home() {
                         <div className='row'>
                             <div className='input-area col-12 col-lg-6'>
                                 <div
-                                    className='compute-container d-flex flex-column row-gap-3 flex-xl-row justify-content-xl-between align-items-center align-items-xl-end mb-5'>
+                                    className='compute-container d-flex flex-column row-gap-3 flex-xl-row justify-conpm ntent-xl-between align-items-center align-items-xl-end mb-5'>
                                     <SwitchVariables/>
                                     <CalculateButton/>
                                 </div>

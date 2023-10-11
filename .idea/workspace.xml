@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="938e4817-0387-47e8-95b5-07acc00b3c4f" name="Changes" comment="added excel file reader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-2023/src/app/kmeans/create-save-manuel-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/pp-2023/src/app/kmeans/create-save-manuel-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-2023/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pp-2023/src/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="development" />
+        <entry key="$PROJECT_DIR$" value="Update-Excel-Reader" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Update-Excel-Reader",
+    "git-widget-placeholder": "PROG-72-RedesignVariableInput",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/workspace/PP2023/pp-2023/src/app/components",
     "list.type.of.created.stylesheet": "SCSS",
@@ -130,6 +132,9 @@
       <workItem from="1696695180172" duration="721000" />
       <workItem from="1696762489654" duration="7106000" />
       <workItem from="1696842650060" duration="1727000" />
+      <workItem from="1696848207320" duration="145000" />
+      <workItem from="1696853507483" duration="135000" />
+      <workItem from="1697005476406" duration="7026000" />
     </task>
     <task id="LOCAL-00001" summary="add kMeans test algorithm to the repository">
       <option name="closed" value="true" />
